@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <listeners>
+	<listener class-name="com.sauce.demo.browserproject.Listeners"/>
+	</listeners>
+    <test thread-count="5" name="Validate login">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateLogin"/>
+    </classes>
+  </test> <!-- Test -->
+    
+  <test thread-count="5" name="Validate Products Listing and add to cart">
+       <classes>
+            <class name="com.sauce.demo.browserproject.ValidateProducts"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Validate shopping cart">
+       <classes>
+            <class name="com.sauce.demo.browserproject.ValidateShoppingCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Validate checkout information">
+       <classes>
+            <class name="com.sauce.demo.browserproject.ValidateCheckoutInformation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Validate checkout overview">
+       <classes>
+            <class name="com.sauce.demo.browserproject.ValidateCheckoutOverview"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Validate checkout confirmation">
+       <classes>
+            <class name="com.sauce.demo.browserproject.ValidateCheckoutComplete"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

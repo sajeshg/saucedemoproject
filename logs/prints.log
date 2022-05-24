@@ -1,0 +1,15 @@
+20:20:56.725 [main] INFO  com.sauce.demo.browserproject.ValidateLogin - Logo is displayed on the login page!
+20:20:57.835 [main] INFO  com.sauce.demo.browserproject.ValidateLogin - Login Button Clicked!!
+20:20:58.611 [main] INFO  com.sauce.demo.browserproject.ValidateLogin - Login Successful!!
+20:21:06.724 [main] INFO  com.sauce.demo.browserproject.ValidateProducts - Products Page is loaded!!
+20:21:07.681 [main] INFO  com.sauce.demo.browserproject.ValidateProducts - Product added to cart successfully!!
+20:21:13.508 [main] INFO  com.sauce.demo.browserproject.ValidateShoppingCart - My Cart title is displayed!
+20:21:13.722 [main] INFO  com.sauce.demo.browserproject.ValidateShoppingCart - Product in My Cart is matching with the item added from product listing!
+20:21:13.843 [main] INFO  com.sauce.demo.browserproject.ValidateShoppingCart - Product description in the cart is displayed as expected!
+20:21:14.009 [main] INFO  com.sauce.demo.browserproject.ValidateShoppingCart - Checkout button on My Cart page is clicked!
+20:21:20.633 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutInformation - Checkout Information page title is displayed!
+20:21:21.431 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutInformation - Continue button on checkout your information page is clicked!
+20:21:28.473 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutOverview - Checkout Overview page title is displayed!
+20:21:29.106 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutOverview - Finish button in the Checkout Overview is clicked!
+20:21:38.038 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutComplete - Checkout Complete page title is displayed!
+20:21:38.784 [main] INFO  com.sauce.demo.browserproject.ValidateCheckoutComplete - Clicked the back button on checkout complete page. Redirected successfully to products page!

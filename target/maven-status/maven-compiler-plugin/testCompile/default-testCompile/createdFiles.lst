@@ -1,0 +1,7 @@
+com\sauce\demo\browserproject\Listeners.class
+com\sauce\demo\browserproject\ValidateCheckoutInformation.class
+com\sauce\demo\browserproject\ValidateCheckoutComplete.class
+com\sauce\demo\browserproject\ValidateLogin.class
+com\sauce\demo\browserproject\ValidateProducts.class
+com\sauce\demo\browserproject\ValidateShoppingCart.class
+com\sauce\demo\browserproject\ValidateCheckoutOverview.class

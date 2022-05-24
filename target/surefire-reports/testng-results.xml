@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-23T16:01:47Z" name="Suite" finished-at="2022-05-23T16:02:47Z" duration-ms="60376">
+    <groups>
+    </groups>
+    <test started-at="2022-05-23T16:01:47Z" name="Validate login" finished-at="2022-05-23T16:02:07Z" duration-ms="19476">
+      <class name="com.sauce.demo.browserproject.ValidateLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateLogin@6821ea29]" started-at="2022-05-23T16:01:47Z" name="initialize" finished-at="2022-05-23T16:02:01Z" duration-ms="13818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateLogin@6821ea29]" started-at="2022-05-23T16:02:01Z" name="validateUserLogin" data-provider="getData" finished-at="2022-05-23T16:02:06Z" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateLogin@6821ea29]" started-at="2022-05-23T16:02:06Z" name="teardown" finished-at="2022-05-23T16:02:07Z" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateLogin -->
+    </test> <!-- Validate login -->
+    <test started-at="2022-05-23T16:02:08Z" name="Validate Products Listing and add to cart" finished-at="2022-05-23T16:02:17Z" duration-ms="9040">
+      <class name="com.sauce.demo.browserproject.ValidateProducts">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateProducts@1ef3efa8]" started-at="2022-05-23T16:02:08Z" name="initialize" finished-at="2022-05-23T16:02:12Z" duration-ms="4482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addProductToCart(java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateProducts@1ef3efa8]" started-at="2022-05-23T16:02:12Z" name="addProductToCart" data-provider="getData" finished-at="2022-05-23T16:02:16Z" duration-ms="3958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateProducts@1ef3efa8]" started-at="2022-05-23T16:02:16Z" name="teardown" finished-at="2022-05-23T16:02:17Z" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateProducts -->
+    </test> <!-- Validate Products Listing and add to cart -->
+    <test started-at="2022-05-23T16:02:17Z" name="Validate shopping cart" finished-at="2022-05-23T16:02:23Z" duration-ms="6217">
+      <class name="com.sauce.demo.browserproject.ValidateShoppingCart">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateShoppingCart@37b70343]" started-at="2022-05-23T16:02:17Z" name="initialize" finished-at="2022-05-23T16:02:19Z" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCartItems(java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateShoppingCart@37b70343]" started-at="2022-05-23T16:02:19Z" name="validateCartItems" data-provider="getData" finished-at="2022-05-23T16:02:23Z" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartItems -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateShoppingCart@37b70343]" started-at="2022-05-23T16:02:23Z" name="teardown" finished-at="2022-05-23T16:02:23Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateShoppingCart -->
+    </test> <!-- Validate shopping cart -->
+    <test started-at="2022-05-23T16:02:23Z" name="Validate checkout information" finished-at="2022-05-23T16:02:29Z" duration-ms="5741">
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutInformation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutInformation@5b43fbf6]" started-at="2022-05-23T16:02:23Z" name="initialize" finished-at="2022-05-23T16:02:25Z" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCheckoutInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutInformation@5b43fbf6]" started-at="2022-05-23T16:02:25Z" name="validateCheckoutInfo" data-provider="getData" finished-at="2022-05-23T16:02:29Z" duration-ms="4036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Billings]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75039]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutInfo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutInformation@5b43fbf6]" started-at="2022-05-23T16:02:29Z" name="teardown" finished-at="2022-05-23T16:02:29Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutInformation -->
+    </test> <!-- Validate checkout information -->
+    <test started-at="2022-05-23T16:02:29Z" name="Validate checkout overview" finished-at="2022-05-23T16:02:37Z" duration-ms="8036">
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutOverview">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutOverview@f73dcd6]" started-at="2022-05-23T16:02:29Z" name="initialize" finished-at="2022-05-23T16:02:31Z" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCheckoutOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutOverview@f73dcd6]" started-at="2022-05-23T16:02:31Z" name="validateCheckoutOverview" data-provider="getData" finished-at="2022-05-23T16:02:37Z" duration-ms="5964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Billings]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75039]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutOverview -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutOverview@f73dcd6]" started-at="2022-05-23T16:02:37Z" name="teardown" finished-at="2022-05-23T16:02:37Z" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutOverview -->
+    </test> <!-- Validate checkout overview -->
+    <test started-at="2022-05-23T16:02:37Z" name="Validate checkout confirmation" finished-at="2022-05-23T16:02:47Z" duration-ms="10047">
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutComplete">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutComplete@7a791b66]" started-at="2022-05-23T16:02:37Z" name="initialize" finished-at="2022-05-23T16:02:41Z" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCheckoutComplete(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutComplete@7a791b66]" started-at="2022-05-23T16:02:41Z" name="validateCheckoutComplete" data-provider="getData" finished-at="2022-05-23T16:02:47Z" duration-ms="6526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Billings]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75039]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutComplete -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.demo.browserproject.ValidateCheckoutComplete@7a791b66]" started-at="2022-05-23T16:02:47Z" name="teardown" finished-at="2022-05-23T16:02:47Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutComplete -->
+    </test> <!-- Validate checkout confirmation -->
+  </suite> <!-- Suite -->
+</testng-results>

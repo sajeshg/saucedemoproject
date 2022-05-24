@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.sauce.demo.browserproject.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validate login(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateUserLogin" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateLogin -->
+    </classes>
+  </test> <!-- Validate login(failed) -->
+  <test thread-count="5" name="Validate Products Listing and add to cart(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateProducts">
+        <methods>
+          <include name="addProductToCart" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateProducts -->
+    </classes>
+  </test> <!-- Validate Products Listing and add to cart(failed) -->
+  <test thread-count="5" name="Validate shopping cart(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateShoppingCart">
+        <methods>
+          <include name="validateCartItems" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateShoppingCart -->
+    </classes>
+  </test> <!-- Validate shopping cart(failed) -->
+  <test thread-count="5" name="Validate checkout information(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutInformation">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateCheckoutInfo" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutInformation -->
+    </classes>
+  </test> <!-- Validate checkout information(failed) -->
+  <test thread-count="5" name="Validate checkout overview(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutOverview">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateCheckoutOverview" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutOverview -->
+    </classes>
+  </test> <!-- Validate checkout overview(failed) -->
+  <test thread-count="5" name="Validate checkout confirmation(failed)">
+    <classes>
+      <class name="com.sauce.demo.browserproject.ValidateCheckoutComplete">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="validateCheckoutComplete" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sauce.demo.browserproject.ValidateCheckoutComplete -->
+    </classes>
+  </test> <!-- Validate checkout confirmation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
